@@ -1,0 +1,963 @@
+.search-box .nav-box {
+    float: right;
+    width: 73px;
+    height: 25px;
+    border-bottom: 1px solid #eee;
+    margin-right: 25px;
+}
+
+.nav-box:hover {
+    border-color: transparent;
+}
+
+.nav-box:hover>.nav-list {
+    display: block;
+}
+
+.text1 {
+    font-size: 12px;
+    color: #666;
+}
+
+.icon {
+    width: 8px;
+    height: 8px;
+    margin-top: 7px;
+    background: url('../images/rednext.png') no-repeat;
+}
+
+.search-box {
+    position: relative;
+}
+
+.search-img {
+    width: 12px;
+    height: 12px;
+    text-align: center;
+    background: url('../images/garysearch.png') no-repeat;
+}
+
+.nav-list {
+    position: absolute;
+    top: 25px;
+    cursor: pointer;
+    width: 80px;
+    padding: 10px;
+    margin: 0;
+    display: none;
+    box-shadow: 3px 3px 10px 1px #ddd;
+    background-color: #fff;
+    z-index: 2;
+}
+
+.nav-list li {
+    font-size: 14px;
+    padding: 10px 0;
+    color: #666;
+}
+
+.logo-box {
+    display: inline-block;
+}
+
+.logo-box img {
+    width: 100%;
+}
+
+.lis-box li {
+    float: left;
+
+    border-bottom: 3px solid transparent;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+
+
+.lis-box li:hover {
+    border-color: #D9232E;
+    color: #D9232E;
+}
+
+.lis-box .liactive {
+    border-color: #D9232E;
+    color: #D9232E;
+}
+
+.carousel-indicators li {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin: 0 20px;
+    position: relative;
+    border: none;
+}
+
+.carousel-indicators li.active {
+    background-color: #D9232E;
+    box-shadow: 0px 0px 0px 10px rgba(217, 35, 46, .35);
+}
+
+.carousel-indicators li>.dashed-line {
+    position: absolute;
+    left: 15px;
+    top: 4px;
+    width: 30px;
+    border-bottom: 2px dashed rgba(255, 255, 255, .85);
+}
+
+
+
+.pro-icon {
+    width: 26px;
+    margin: 0 auto;
+}
+
+.pro-title {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    color: #666;
+    font-size: 14px;
+}
+
+.o-box {
+    width: 171px;
+    height: 82px;
+}
+
+.o-box:hover>.pro-title {
+    color: #D9232E;
+}
+
+.pro-icon-noactive {
+    width: 26px;
+    height: 29px;
+    background: url('../images/superior1.png')no-repeat center center;
+}
+
+.o-box:hover>.pro-line {
+    background-color: #D9232E;
+}
+
+.o-box:hover>.pro-icon-noactive {
+    background: url('../images/superior1_h.png')no-repeat center center;
+}
+
+.pro-line {
+    width: 26px;
+    height: 3px;
+    background-color: transparent;
+    margin: 0 auto;
+}
+
+.good-box {
+    border-bottom: 1px solid #ccc;
+}
+
+.s-imgs {
+    margin-top: 15px;
+}
+
+.g-img {
+
+    float: left;
+}
+
+.g-img>h6 {
+    font-size: 24px;
+    color: #333333;
+    margin-top: 15px;
+    font-weight: 600;
+}
+
+.g-img>p {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #666;
+
+}
+
+
+/* PC版 */
+@media screen and (min-width:1200px) {
+
+    .box {
+        width: 1200px;
+        /* height: 200px; */
+
+    }
+
+    .m-wrap,
+    .navs {
+        display: none;
+    }
+
+    .hres {
+        height: 3px;
+        background-color: #D9232E;
+
+    }
+
+    .search-box {
+        height: 25px;
+        margin-top: 15px;
+    }
+
+    .search-img {
+        position: absolute;
+        right: 5px;
+        top: 5px;
+    }
+
+    .search-box .nav-box {
+        padding-left: 10px;
+    }
+
+    .logo-box {
+        width: 61px;
+        height: 75px;
+        margin-top: -50px;
+    }
+
+    .lis-box {
+        float: right;
+        margin-top: 20px;
+        height: 43px;
+
+
+    }
+
+    .lis-box li {
+        margin-right: 53px;
+        padding-bottom: 15px;
+
+
+    }
+
+    .lis-box li:last-child {
+        margin-right: 0;
+    }
+
+    .tc {
+        height: 342.5px;
+        background-color: #fff;
+    }
+
+    .qc {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        width: 280px;
+        margin: auto;
+        height: 100px;
+        font-size: 42px;
+        color: #fff;
+        text-align: center;
+        line-height: 94px;
+        border-top: 3px solid #fff;
+        border-bottom: 3px solid #fff;
+    }
+
+    .qc:hover {
+        color: #D9232E;
+        border-color: #D9232E;
+    }
+
+    .a-img {
+        position: relative;
+        height: 700px;
+        background: url("../images/brandconcept.jpg") no-repeat center center;
+        background-size: cover;
+        cursor: pointer;
+    }
+
+    .a-img:hover>.tx-title {
+        color: #D9232E;
+    }
+
+    .tx-title {
+        position: absolute;
+        right: 30px;
+        top: 30px;
+        font-size: 48px;
+        color: #fff;
+    }
+
+    .btn-box {
+        width: 191px;
+        height: 50px;
+        border: 1px solid #888;
+        margin: 25px auto 0;
+        padding: 0 20px;
+    }
+
+    .btn-box:hover {
+        background-color: #D9232E;
+
+    }
+
+    .btn-box:hover>.text {
+        color: #fff;
+        line-height: 50px;
+    }
+
+    .here {
+        width: 33px;
+        height: 13px;
+        background: url("../images/grayarrow.png") no-repeat center center;
+        margin-top: 18.5px;
+        margin-left: 15px;
+    }
+
+    .text {
+        color: #888;
+        line-height: 50px;
+    }
+
+    .gold {
+        width: 280px;
+        font-size: 14px;
+        margin: 20px auto 0;
+        color: #888;
+    }
+
+    .bottom-c {
+        background: url("../images/distributor.jpg") no-repeat center center;
+        background-size: cover;
+        position: relative;
+    }
+
+    .tz {
+        font-size: 52px;
+        margin-top: 15px;
+    }
+
+
+    .intro {
+        margin-bottom: 15px;
+        padding-top: 40px;
+        border: 1px solid #d4d4d4;
+    }
+
+    .y-box>h1 {
+        font-size: 36px;
+        color: #222222;
+        font-weight: 600;
+    }
+
+    .h1-title::after {
+        content: ' ';
+        width: 43px;
+        height: 1px;
+        background-color: #cccccc;
+        margin-left: 10px;
+        position: absolute;
+        top: 25px;
+
+    }
+
+    .h1-title::before {
+        content: ' ';
+        width: 43px;
+        height: 1px;
+        background-color: #cccccc;
+        margin-right: 10px;
+        position: absolute;
+        top: 25px;
+        left: 470px;
+
+    }
+
+    .z-box>h2 {
+        font-size: 36px;
+        color: #222222;
+        font-weight: 600;
+    }
+
+    .h2-title::after {
+        content: ' ';
+        width: 43px;
+        height: 1px;
+        background-color: #cccccc;
+        margin-left: 10px;
+        position: absolute;
+        top: 25px;
+    }
+
+    .h2-title::before {
+        content: ' ';
+        width: 43px;
+        height: 1px;
+        background-color: #cccccc;
+        margin-right: 10px;
+        position: absolute;
+        top: 25px;
+        left: 470px;
+
+    }
+
+    .arr {
+        width: 40px;
+        height: 13px;
+        background: url("../images/grayarrow.png") no-repeat center center;
+        margin-top: 17px;
+        margin-left: 12px;
+    }
+
+    .learn {
+        line-height: 50px;
+    }
+
+    .news-btn:hover {
+        background-color: #D9232E;
+    }
+
+    .one-text {
+        font-size: 18px;
+        color: #333;
+        font-weight: 600;
+        text-align: center;
+        padding: 15px 10px 0;
+    }
+
+    .news-main {
+        font-size: 14px;
+        color: #666;
+    }
+
+    .footer-line {
+        height: 3px;
+
+        background: #333333;
+    }
+
+
+
+}
+
+/* 平板 */
+@media screen and (min-width:768px) and (max-width:1199px) {
+
+    .box {
+        padding-top: 15px;
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+
+    .hres,
+    .m-wrap,
+    .navs {
+        display: none;
+    }
+
+    .bar .logo-box {
+        width: 33px;
+        height: 40px;
+
+        /* display: inline-block; */
+        float: left;
+    }
+
+    .search-box {
+        overflow: hidden;
+        margin-top: 8px;
+        float: right;
+    }
+
+    .search-img {
+        position: absolute;
+        right: 5px;
+        top: 9px;
+    }
+
+    .search-box .nav-box {
+        padding-left: 0;
+        margin-top: 5px;
+    }
+
+    .lis-box {
+        float: left;
+        width: calc(100% - 98px - 33px);
+
+    }
+
+    .lists {
+        width: 442px;
+        margin: 0 auto;
+    }
+
+    .lis-box li {
+        margin-left: 41px;
+        padding-bottom: 7px;
+        line-height: 40px;
+
+    }
+
+    .tc {
+        height: 282.5px;
+        background-color: #fff;
+    }
+
+    .intro {
+        margin-bottom: 15px;
+        padding-top: 40px;
+        border: 1px solid #888;
+    }
+
+
+
+    .tc {
+        height: 342.5px;
+        background-color: #fff;
+    }
+
+    .qc {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        width: 280px;
+        margin: auto;
+        height: 100px;
+        font-size: 42px;
+        color: #fff;
+        text-align: center;
+        line-height: 94px;
+        border-top: 3px solid #fff;
+        border-bottom: 3px solid #fff;
+    }
+
+    .qc:hover {
+        color: #D9232E;
+        border-color: #D9232E;
+    }
+
+    .a-img {
+        position: relative;
+        height: 700px;
+        background: url("../images/brandconcept.jpg") no-repeat center center;
+        background-size: cover;
+        cursor: pointer;
+    }
+
+    .a-img:hover>.tx-title {
+        color: #D9232E;
+    }
+
+    .tx-title {
+        position: absolute;
+        right: 30px;
+        top: 30px;
+        font-size: 48px;
+        color: #fff;
+    }
+
+    .btn-box {
+        width: 191px;
+        height: 50px;
+        border: 1px solid #888;
+        margin: 25px auto 0;
+        padding: 0 20px;
+    }
+
+    .btn-box:hover {
+        background-color: #D9232E;
+
+    }
+
+    .btn-box:hover>.text {
+        color: #fff;
+    }
+
+    .here {
+        width: 33px;
+        height: 13px;
+        background: url("../images/grayarrow.png") no-repeat center center;
+        margin-top: 18.5px;
+        margin-left: 35px;
+    }
+
+    .text {
+        color: #888;
+        line-height: 50px;
+    }
+
+    .gold {
+        width: 280px;
+        font-size: 14px;
+        margin: 20px auto 0;
+        color: #888;
+    }
+
+    .bottom-c {
+        background: url("../images/distributor.jpg") no-repeat center center;
+        background-size: cover;
+        position: relative;
+    }
+
+    .tz {
+        font-size: 52px;
+        margin-top: 15px;
+    }
+
+
+    .intro {
+        margin-bottom: 15px;
+        padding-top: 40px;
+        border: 1px solid #d4d4d4;
+    }
+
+    .arr {
+        width: 40px;
+        height: 13px;
+        background: url("../images/grayarrow.png") no-repeat center center;
+        margin-top: 17px;
+    }
+
+    .learn {
+        line-height: 50px;
+    }
+
+    .news-btn:hover {
+        background-color: #D9232E;
+    }
+
+    .one-text {
+        font-size: 18px;
+        color: #333;
+        font-weight: 600;
+        text-align: center;
+        padding: 15px 10px 0;
+    }
+
+    .news-main {
+        font-size: 14px;
+        color: #666;
+    }
+
+    .footer-line {
+        height: 3px;
+        background: #333333;
+    }
+
+
+
+}
+
+/*手机*/
+@media screen and (max-width:767px) {
+
+    .wrap,
+    .good-box {
+        display: none;
+    }
+
+    .m-wrap {
+        padding-top: 20px;
+        margin: 0 15px;
+    }
+
+    .m-logo-box {
+        width: 50px;
+    }
+
+    .m-icons {
+        margin-top: 18px;
+    }
+
+    .m-icons>span {
+
+        /* background: cornflowerblue; */
+        float: left;
+        margin-left: 25px;
+
+    }
+
+    .m-icons>span:first-child {
+        margin-left: 0;
+    }
+
+
+    .m-icons>span:nth-child(1) {
+        width: 35px;
+        height: 35px;
+        background: url('../images/ph_nav.png') no-repeat center center;
+
+
+    }
+
+    .m-icons>span:nth-child(2) {
+        width: 35px;
+        height: 35px;
+        background: url('../images/blacksearch.png') no-repeat center center;
+
+    }
+
+    .m-icons>span:nth-child(3) {
+        width: 35px;
+        height: 35px;
+        background: url('../images/world.png') no-repeat center center;
+        background-size: 100%;
+
+    }
+
+    .slide-box{
+        margin-top: 15px;
+    }
+    .here {
+        width: 33px;
+        height: 13px;
+        background: url("../images/grayarrow.png") no-repeat center center;
+        margin-top: 18.5px;
+        margin-left: 15px;
+    }
+    .m-bg-box {
+        position: fixed;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        background: rgba(0, 0, 0, 0.3);
+        display: none;
+        z-index: 20;
+    }
+
+    .m-hr {
+        /* width: 27px; */
+        height: 100px;
+        position: relative;
+    }
+
+    .m-close {
+        width: 35px;
+        height: 29px;
+        background: url('../images/close.png') no-repeat center center;
+        position: absolute;
+        right: 135px;
+        top: 40px;
+    }
+
+
+    .m-ul-box {
+        width: 100%;
+        background: #D9232E;
+        /* position: relative; */
+    }
+
+    .navs {
+        overflow-x: auto;
+    }
+
+    .m-tabs {
+        width: 538px;
+
+    }
+
+    .m-tabs>li {
+        float: left;
+        margin: 0 10px;
+    }
+
+    .g-img>h6 {
+        font-size: 14px;
+    }
+
+    .g-img>p {
+        font-size: 1px;
+    }
+
+    .carousel-indicators li.active {
+        /* background-color: #D9232E; */
+        box-shadow: none;
+    }
+
+    .carousel-indicators li>.dashed-line {
+        display: none;
+    }
+
+    .carousel-indicators li {
+        margin: 0 10px;
+    }
+
+    .tc {
+        height: 282.5px;
+        background-color: #fff;
+    }
+
+    .intro {
+        margin-bottom: 15px;
+        padding-top: 40px;
+        border: 1px solid #888;
+    }
+
+
+
+    .tc {
+        height: 326.5px;
+        background-color: #fff;
+    }
+
+    .qc {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        width: 200px;
+        margin: auto;
+        height: 90px;
+        font-size: 24px;
+        color: #fff;
+        text-align: center;
+        line-height: 90px;
+        border-top: 3px solid #fff;
+        border-bottom: 3px solid #fff;
+    }
+
+    .qc:hover {
+        color: #D9232E;
+        border-color: #D9232E;
+    }
+
+    .a-img {
+        position: relative;
+        height: 360px;
+        background: url("../images/brandconcept.jpg") no-repeat center center;
+        background-size: cover;
+        cursor: pointer;
+    }
+
+    .a-img:hover>.tx-title {
+        color: #D9232E;
+    }
+
+    .tx-title {
+        position: absolute;
+        right: 30px;
+        top: 30px;
+        font-size: 40px;
+        color: #fff;
+    }
+
+    .btn-box {
+        width: 191px;
+        height: 50px;
+        border: 1px solid #888;
+        margin: 25px auto 0;
+        padding: 0 20px;
+    }
+
+
+
+    .text {
+        color: #888;
+        line-height: 50px;
+    }
+
+    .gold {
+        width: 280px;
+        font-size: 14px;
+        margin: 20px auto 0;
+        color: #888;
+    }
+
+    .bottom-c {
+        background: url("../images/distributor.jpg") no-repeat center center;
+        background-size: cover;
+        position: relative;
+    }
+
+    .tz {
+        font-size: 52px;
+        margin-top: 15px;
+    }
+
+
+    .intro {
+        margin-bottom: 15px;
+        padding-top: 40px;
+        border: 1px solid #d4d4d4;
+    }
+
+    .l-box {
+        margin-top: 10px;
+    }
+
+    .arr {
+        width: 40px;
+        height: 13px;
+        background: url("../images/grayarrow.png") no-repeat center center;
+        margin-top: 17px;
+    }
+
+    .learn {
+        line-height: 50px;
+    }
+
+    .news-btn:hover {
+        background-color: #D9232E;
+    }
+
+    .one-text {
+        font-size: 18px;
+        color: #333;
+        font-weight: 600;
+        text-align: center;
+        padding: 15px 10px 0;
+    }
+
+    .news-main {
+        font-size: 14px;
+        color: #666;
+    }
+
+    .footer-line {
+        height: 3px;
+        background: #333333;
+    }
+
+    .m-ul-box>li>div:not(.m-c){
+        padding: 15px 0;
+        font-size: 24px;
+        color: #fff;
+        border-bottom: 1px solid rgba(255, 255, 255, .5);
+      }
+      .m-ul-box>li:hover>.m-c{
+        display: block;
+      }
+      .m-ul-box>li{
+        padding: 0 15px;
+        position: relative;
+      }
+    
+      .arrow{
+        width: 16.5px;
+        height: 10.5px;
+        margin-top: 11px;
+        background: url("../images/whiten.png") no-repeat center center;
+        transform: rotateZ(-90deg);
+        background-size: 16.5px 10.5px;
+      }
+      .m-c{
+        margin-left: -15px;
+        margin-right: -15px;
+        margin-top: -1px;
+        background-color: #fff;
+        padding: 15px;
+        display: none;
+      }
+      .m-c>div{
+        padding: 15px 0;
+        cursor: pointer;
+        font-size: 20px;
+      }
+    
+      .m-c>div:hover{
+        color: #D9232E;
+      }
+
+}
